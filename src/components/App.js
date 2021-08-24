@@ -6,8 +6,8 @@ function App() {
     const [count, setCount] = useState(0);
     <div id="main">
       // Do not alter the main div
-     <p id="para">You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
+     <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy </p>
+      <button id="click" onClick={() => setCount(count + 1)}>
         Click me
       </button>
     </div>
