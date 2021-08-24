@@ -3,9 +3,10 @@ import "./../styles/App.css";
 
 function App() {
   return (
+    const [count, setCount] = useState(0);
     <div id="main">
       // Do not alter the main div
-     <p>You clicked {count} times</p>
+     <p id="para">You clicked {count} times</p>
       <button onClick={() => setCount(count + 1)}>
         Click me
       </button>
